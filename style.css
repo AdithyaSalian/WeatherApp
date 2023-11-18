@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./pexels-brett-sayles-912364.jpg);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.inputs input[type="text"] {
+    height: 40px;
+    width: 60%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #212121;
+    border-radius: 5px;
+}
+
+.inputs input[type="submit"] {
+    height: 40px;
+    width: 20%;
+    background: #270aca;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.wrapper {
+    background-color: rgba(172, 189, 221, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper h2 {
+    padding: 10px;
+    background: #0548b5;
+    color: white;
+    border-radius: 5px;
+}
+
+.wrapper p {
+    margin: 20px 0;
+    text-align: left;
+    color: #04214c;
+    font-size: 1rem;
+}
+
+.wrapper h2 span,
+.wrapper p span {
+    color: black;
+    font-size: 1.2rem;
+}
